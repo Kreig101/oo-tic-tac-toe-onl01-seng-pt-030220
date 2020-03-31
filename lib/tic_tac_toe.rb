@@ -89,8 +89,8 @@ def won?
      
      winning_combo = combo
 end 
-winning_combo
 end
+winning_combo
 end
 
 
