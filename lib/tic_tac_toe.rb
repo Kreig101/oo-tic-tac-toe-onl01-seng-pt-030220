@@ -104,6 +104,11 @@ end
 def over?
 end
 
+def winner
+end
+
+def play
+end
 
 end
 
