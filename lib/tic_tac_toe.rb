@@ -106,7 +106,7 @@ def over?
 end
 
 def winner
-    
+    winning_combo = won?
 end
 
 def play
