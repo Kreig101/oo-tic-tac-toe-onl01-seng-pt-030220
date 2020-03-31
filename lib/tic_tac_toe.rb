@@ -118,6 +118,7 @@ def play
 end
 if won? 
   victor = winner 
+  puts "congraulations #{winner}"  
 end
 
 end
