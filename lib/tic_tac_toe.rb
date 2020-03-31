@@ -30,7 +30,7 @@ def input_to_index(input)
   # binding.pry
 end
   
-qdef move( index, token = "x")
+def move( index, token = "x")
     board[index] = token
     
 end
@@ -64,3 +64,4 @@ def turn_count
   board.count {|c| cell !=" "}
 end
   
+end
