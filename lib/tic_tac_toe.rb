@@ -47,7 +47,7 @@ def valid_move?(index)
   
 end
 
-def turn
+def turn(board)
   puts "Where would you like to go?"
   input = gets.strip
   index = input_to_index(input)
@@ -73,17 +73,17 @@ def current_player
 end
 end
 
-# def won?
-# WIN_COMBINATIONS = [
-# [0,1,2],
-# [3,4,5],
-# [6,7,8],
-# [0,3,6],
-# [1,4,7],
-# [2,5,8],
-# [0,4,8],
-# [6,4,2]]
-# end 
+def won?
+WIN_COMBINATIONS = [
+[0,1,2],
+[3,4,5],
+[6,7,8],
+[0,3,6],
+[1,4,7],
+[2,5,8],
+[0,4,8],
+[6,4,2]]
+end 
 
 
 end
