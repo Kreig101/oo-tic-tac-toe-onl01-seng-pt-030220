@@ -118,7 +118,7 @@ def play
 end
 if won? 
   victor = winner 
-  puts "congratulations #{winner}"  
+  puts "Congratulations #{winner}!"  
 elsif draw?
     puts "Cats Game"
 
