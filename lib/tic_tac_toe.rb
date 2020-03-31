@@ -80,6 +80,8 @@ def won?
    position_1 = combo[0]
    position_2 = combo[1]
    position_3 = combo[2]
+   
+   if board[position_1]
 
 
 
