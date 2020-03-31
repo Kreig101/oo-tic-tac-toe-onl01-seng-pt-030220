@@ -106,8 +106,9 @@ def over?
 end
 
 def winner
-    winning_combo = won?
+   if  winning_combo = won?
     board[winning_combo.first]
+end
 end
 
 
