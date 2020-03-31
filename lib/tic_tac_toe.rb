@@ -54,10 +54,10 @@ def turn
   
   if valid_move?(index)
     move(index, "X")
-      display_board(board)
+      display_board
     else
       puts "That move was invalid, try again."
-      turn(board)
+      turn
 end
 end
     
