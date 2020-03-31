@@ -73,9 +73,8 @@ def current_player
 end
 end
 
-# def won?
+def won?
 WIN_COMBINATIONS
-[6,4,2]]
 end 
 
 
