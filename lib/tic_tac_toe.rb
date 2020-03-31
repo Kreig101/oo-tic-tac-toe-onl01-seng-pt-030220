@@ -82,7 +82,7 @@ def won?
    position_3 = combo[2]
    
    if board[position_1] == "X" && board[position_2] == "X" && board[position_3] == "X"
-     winning_combo = 
+     winning_combo = combo
 
 
 
