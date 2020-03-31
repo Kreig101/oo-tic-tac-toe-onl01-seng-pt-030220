@@ -75,7 +75,9 @@ end
 
 def won?
   winning_combo = nil 
-combo = WIN_COMBINATIONS
+ 
+ WIN_COMBINATIONS.each do |combo|
+   
 
 
 
