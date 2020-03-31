@@ -101,6 +101,9 @@ def draw?
   full? && !won?
 end
 
+def over?
+end
+
 
 end
 
