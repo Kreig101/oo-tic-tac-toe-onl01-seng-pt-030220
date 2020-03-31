@@ -53,7 +53,7 @@ def turn
   index = input_to_index(input)
   
   if valid_move?(index)
-   current_player(index)
+    current_player(index, "X")
       display_board
     else
       puts "That was invalid, try again."
