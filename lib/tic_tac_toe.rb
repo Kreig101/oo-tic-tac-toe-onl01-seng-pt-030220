@@ -65,6 +65,7 @@ def turn_count
   board.count {|cell| cell !=" "}
 end
 
-def turn_count_palyer 
+def current_player
+end
   
 end
