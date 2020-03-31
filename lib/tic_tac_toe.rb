@@ -88,12 +88,12 @@ def won?
      elsif board[position_1] == "O" && board[position_2] == "O" && board[position_3] == "O"
      
      winning_combo = combo
-
-
-
-
 end 
+winning_combo
 end
 end
+
+
+
 end
 
