@@ -73,7 +73,7 @@ def current_player
 end
 end
 
-def turn
+def won?
 end 
 
 
