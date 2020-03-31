@@ -39,8 +39,8 @@ end
     board[index] != " "
     
 end
-def valid_move(board, index) 
-  index.between?(0,8) && !position_taken?(board,index)
+def valid_move?(index) 
+  index.between?(0,8) && !position_taken?(index)
   
 end
 
@@ -49,7 +49,7 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
   
-  if valid_move?(board, index)
+  if valid_move?(index)
     move(board, index, "X")
       display_board(board)
     else
@@ -57,12 +57,12 @@ def turn(board)
       turn(board)
     end
     
-    def turn_count(board)
+    def turn_count
       
       occupied_spaces = 0
       counter = 0 
       while couter < board.size 
-      position_taken?(board,index)
+      position_taken?(index)
       occupied_spaces += 1
     end
         counter += 1 
