@@ -64,6 +64,3 @@ def turn_count
   board.count {|c| cell !=" "}
 end
   
-  
-end
-end
