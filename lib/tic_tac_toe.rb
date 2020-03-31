@@ -83,11 +83,13 @@ def won?
    
    if board[position_1] == "X" && board[position_2] == "X" && board[position_3] == "X"
      winning_combo = combo
+     
+     elsif
 
 
 
 
 end 
-
+end
 
 end
