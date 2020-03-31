@@ -62,7 +62,7 @@ def turn(board)
       occupied_spaces = 0
       counter = 0 
       while couter < board.size 
-      position_taken?(index)
+     if  position_taken?(index)
       occupied_spaces += 1
     end
         counter += 1 
