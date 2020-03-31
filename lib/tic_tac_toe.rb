@@ -120,7 +120,7 @@ if won?
   victor = winner 
   puts "Congratulations #{winner}!"  
 elsif draw?
-    puts "Cats Game"
+    puts "Cat's Game!"
 
   
 end
