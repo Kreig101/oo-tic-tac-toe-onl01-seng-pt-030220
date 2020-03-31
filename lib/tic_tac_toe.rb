@@ -74,7 +74,9 @@ end
 end
 
 def won?
-WIN_COMBINATIONS
+combo = WIN_COMBINATIONS
+
+
 end 
 
 
