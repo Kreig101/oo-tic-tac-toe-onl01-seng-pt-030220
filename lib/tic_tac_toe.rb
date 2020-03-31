@@ -64,5 +64,7 @@ end
 def turn_count
   board.count {|cell| cell !=" "}
 end
+
+def turn_count_palyer 
   
 end
