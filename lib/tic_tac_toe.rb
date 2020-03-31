@@ -94,8 +94,7 @@ winning_combo
 end
 
 def full?
-  if turn_count == 9
-    true
+  turn_count == 9
 end
 
 
