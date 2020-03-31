@@ -75,8 +75,8 @@ end
 
 # def won?
 WIN_COMBINATIONS
-# [6,4,2]]
-# end 
+[6,4,2]]
+end 
 
 
 end
