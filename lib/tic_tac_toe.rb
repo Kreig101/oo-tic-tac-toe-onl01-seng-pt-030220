@@ -59,6 +59,7 @@ def turn(board)
       puts "That move was invalid, try again."
       turn(board)
 end
+end
     
 def turn_count
   board.count {|c| cell !=" "}
