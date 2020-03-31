@@ -65,7 +65,7 @@ def turn_count
   board.count {|cell| cell !=" "}
 end
 
-def current_player(board)
+def current_player
   if turn_count.odd?
     "O"
   else
