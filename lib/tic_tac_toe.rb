@@ -47,7 +47,7 @@ def valid_move?(index)
   
 end
 
-def turn(board)
+def turn
   puts "Where would you like to go?"
   input = gets.strip
   index = input_to_index(input)
