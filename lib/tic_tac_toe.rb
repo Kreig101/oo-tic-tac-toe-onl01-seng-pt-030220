@@ -109,7 +109,7 @@ def winner
     winning_combo = won?
     board[winning_combo.first]
 end
-end
+
 
 def play
 end
