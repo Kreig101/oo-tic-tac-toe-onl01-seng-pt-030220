@@ -108,6 +108,7 @@ end
 def winner
     if won?
       if turn_count.odd?
+        "O"
       
 end
 end
