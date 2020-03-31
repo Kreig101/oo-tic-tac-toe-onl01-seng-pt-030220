@@ -59,8 +59,6 @@ def turn(board)
     
 def turn_count
   board.count {|cell| !=" "}
-
-  occupied_spaces
 end
   
   def
