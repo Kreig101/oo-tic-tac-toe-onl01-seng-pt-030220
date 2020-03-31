@@ -47,18 +47,18 @@ def valid_move?(index)
   
 end
 
-def turn(board)
-  puts "Where would you like to go?"
-  input = gets.strip
-  index = input_to_index(input)
+# def turn(board)
+#   puts "Where would you like to go?"
+#   input = gets.strip
+#   index = input_to_index(input)
   
-  if valid_move?(index)
-    move(board, index, "X")
-      display_board(board)
-    else
-      puts "That move was invalid, try again."
-      turn(board)
-end
+#   if valid_move?(index)
+#     move(board, index, "X")
+#       display_board(board)
+#     else
+#       puts "That move was invalid, try again."
+#       turn(board)
+# end
     
 def turn_count
   board.count {|c| cell !=" "}
