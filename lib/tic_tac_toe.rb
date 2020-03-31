@@ -58,8 +58,7 @@ def turn(board)
     end
     
 def turn_count
-  board.each do |cell|
-    cell !=
+  board.count {|cell| }
 
   occupied_spaces
 end
