@@ -108,11 +108,6 @@ end
 def winner
     winning_combo = won?
     board[winning_combo.first]
-      if turn_count.odd?
-        "O"
-      else
-        "X"
-      
 end
 end
 
