@@ -117,6 +117,7 @@ def play
   turn
 end
 if won? 
+  victor = b
 end
 
 end
