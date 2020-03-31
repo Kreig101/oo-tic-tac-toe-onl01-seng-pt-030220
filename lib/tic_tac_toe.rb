@@ -106,7 +106,8 @@ def over?
 end
 
 def winner
-    if won?
+    winning_combo = won?
+    winning_combo
       if turn_count.odd?
         "O"
       else
