@@ -102,10 +102,11 @@ def draw?
 end
 
 def over?
+    won? || draw?
 end
 
 def winner
-  won? || draw?
+    
 end
 
 def play
