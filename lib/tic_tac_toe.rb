@@ -72,5 +72,7 @@ def current_player
     "X"
 end
 end
-  
+
+def turn
+end  
 end
