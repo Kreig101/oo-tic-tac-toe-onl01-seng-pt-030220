@@ -128,3 +128,4 @@ end
 
 end
 
+TicTacToe.new.play
