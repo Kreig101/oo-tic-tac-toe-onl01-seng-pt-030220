@@ -119,7 +119,8 @@ end
 if won? 
   victor = winner 
   puts "congratulations #{winner}"  
-elsif
+elsif draw?
+    puts "Cats Game"
 
   
 end
