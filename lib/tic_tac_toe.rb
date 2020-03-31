@@ -56,7 +56,7 @@ def turn
     move(index, "X")
       display_board
     else
-      puts "That move was invalid, try again."
+      puts "That was invalid, try again."
       turn
 end
 end
