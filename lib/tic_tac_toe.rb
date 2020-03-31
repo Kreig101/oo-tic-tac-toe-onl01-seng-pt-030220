@@ -105,6 +105,7 @@ def over?
 end
 
 def winner
+  won? || draw?
 end
 
 def play
