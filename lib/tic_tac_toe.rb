@@ -2,9 +2,9 @@ class TicTacToe
   
   attr_accessor :board
   
-  def initialize
+def initialize
     @board = board || Array.new(9, " ")
-  end
+end
   
   WIN_COMBINATIONS = [
 [0,1,2],
@@ -30,15 +30,18 @@ def input_to_index(input)
   # binding.pry
 end
   
-  def move( index, token = "x")
+qdef move( index, token = "x")
     board[index] = token
     
 end
   
-  def position_taken?(index)
+
+def position_taken?(index)
     board[index] != " "
     
 end
+
+
 def valid_move?(index) 
   index.between?(0,8) && !position_taken?(index)
   
@@ -55,7 +58,7 @@ def turn(board)
     else
       puts "That move was invalid, try again."
       turn(board)
-    end
+end
     
 def turn_count
   board.count {|c| cell !=" "}
